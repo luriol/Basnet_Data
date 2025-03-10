@@ -1,0 +1,69 @@
+First Fit
+____________________________________________
+[[Model]]
+    Model(multilayer_ref_Ti)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 53
+    # data points      = 466
+    # variables        = 3
+    chi-square         = 221235.083
+    reduced chi-square = 477.829553
+    Akaike info crit   = 2877.86271
+    Bayesian info crit = 2890.29526
+    R-squared          = 0.99551806
+[[Variables]]
+    D:             45.78702 (fixed)
+    G:             0.6755463 (fixed)
+    I0:            1 (fixed)
+    bg:            0 (fixed)
+    foot:          0 (fixed)
+    overlay:       48.1870744 +/- 1.09716133 (2.28%) (init = 48)
+    sig_Si:        3.340299 (fixed)
+    sig_Mo:        7.412603 (fixed)
+    sig_Si_top:    3 (fixed)
+    thoff:         0 (fixed)
+    res:           0.00576158 +/- 2.3251e-04 (4.04%) (init = 0.005956)
+    D_Ti:          104.595404 +/- 1.59308418 (1.52%) (init = 103.4)
+    sig_Ti:        3 (fixed)
+    D_SiO2:        10 (fixed)
+    sig_SiO2:      3 (fixed)
+    D_SiO2_Bot:    30 (fixed)
+    sig_SiO2_Bot:  3 (fixed)
+    sig_Si_Bot:    3 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(overlay, D_Ti) = +0.2451
+--------------------------------------------------
+Second Fit
+--------------------------------------------------
+[[Model]]
+    Model(multilayer_ref_Ti)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 33
+    # data points      = 91
+    # variables        = 3
+    chi-square         = 6924.22507
+    reduced chi-square = 78.6843758
+    Akaike info crit   = 400.204894
+    Bayesian info crit = 407.737473
+    R-squared          = 0.88542422
+[[Variables]]
+    D:             45.78702 (fixed)
+    G:             0.6755463 (fixed)
+    I0:            1 (fixed)
+    bg:            0 (fixed)
+    foot:          0 (fixed)
+    overlay:       46.3754867 +/- 0.62849097 (1.36%) (init = 48.18707)
+    sig_Si:        3.340299 (fixed)
+    sig_Mo:        7.412603 (fixed)
+    sig_Si_top:    3 (fixed)
+    thoff:         0 (fixed)
+    res:           0.00638863 +/- 3.5493e-04 (5.56%) (init = 0.005761576)
+    D_Ti:          104.386669 +/- 1.30918314 (1.25%) (init = 104.5954)
+    sig_Ti:        3 (fixed)
+    D_SiO2:        10 (fixed)
+    sig_SiO2:      3 (fixed)
+    D_SiO2_Bot:    30 (fixed)
+    sig_SiO2_Bot:  3 (fixed)
+    sig_Si_Bot:    3 (fixed)
